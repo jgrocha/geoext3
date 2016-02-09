@@ -1,5 +1,7 @@
 # GeoExt 3
 
+[![Join the chat at https://gitter.im/jgrocha/geoext3](https://badges.gitter.im/jgrocha/geoext3.svg)](https://gitter.im/jgrocha/geoext3?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 JavaScript Toolkit for Rich Web Mapping Applications.
 
 [![Build Status](https://travis-ci.org/geoext/geoext3.svg?branch=master)](https://travis-ci.org/geoext/geoext3) [![Coverage Status](https://coveralls.io/repos/geoext/geoext3/badge.svg?branch=master&service=github)](https://coveralls.io/github/geoext/geoext3?branch=master)
