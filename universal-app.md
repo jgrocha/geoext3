@@ -1,6 +1,12 @@
 # GeoExt 3 Universal App
 
-Follow these instructions to build your first GeoExt 3 application, using Sencha `cmd`. Supported versions:
+Follow these instructions to build your first GeoExt 3 application, using Sencha `cmd`. Supported version:
+
+* Sencha Cmd v6.2.0.103
+* ExtJS GPL 6.2.0 (ext.version.number=6.2.0.981)
+* GeoExt 3 (from 2016-10-14)
+
+Previous supported versions:
 
 * Sencha Cmd v6.0.1.76 and v6.0.2.14
 * ExtJS GPL 6.0.0 (ext.version.number=6.0.0.640) and ExtJS GPL 6.0.1 (ext.version.number=6.0.1.250)
@@ -14,13 +20,13 @@ Let's review the Sencha `cmd` used to create a basic universal app.
 
 Install [Sencha Cmd](https://www.sencha.com/products/extjs/cmd-download/).
 
-Download ExtJS 6 GPL ([version ext-6.0.1](https://www.sencha.com/legal/gpl/)). Unzip it, and store it somewhere on your file system, like `/somewhere/ExtJS 6/ext-6.0.1/`.
+Download ExtJS 6 GPL ([version ext-6.2.0](https://www.sencha.com/legal/gpl/)). Unzip it, and store it somewhere on your file system, like `/somewhere/ExtJS 6/ext-6.2.0/`.
 
 To create a universal ExtJS 6 based app, do:
 
 ```
-cd ~/WebstormProjects
-sencha -sdk "/somewhere/ExtJS 6/ext-6.0.1/" generate app MyApp MyApp
+cd ~/projects
+sencha -sdk "/somewhere/ExtJS 6/ext-6.2.0/" generate app MyApp MyApp
 cd MyApp
 sencha app watch
 ```
@@ -41,13 +47,13 @@ Press `CONTROL-C` to end the local server.
 
 ## GeoExt 3 Universal App
 
-Let's do it! Please make sure that you are able to create the ExtJS Universal App as described. The process to create our first GeoExt 3 is quite similar. The previous app was created to make sure you have all the ExtJS setup up and running.
+Please make sure that you successfully created the ExtJS Universal App as described. The process to create a GeoExt 3 application is quite similar. The previous app was created to make sure you have all the ExtJS setup up and running.
 
 You already have Sencha cmd and ExtJS 6 working. Let's start with a basic ExtJS application.
 
 ```
-cd ~/WebstormProjects
-sencha -sdk "/somewhere/ExtJS 6/ext-6.0.1/" generate app MyGeoExtApp MyGeoExtApp
+cd ~/projects
+sencha -sdk "/somewhere/ExtJS 6/ext-6.2.0/" generate app MyGeoExtApp MyGeoExtApp
 cd MyGeoExtApp/
 sencha app watch
 ```
@@ -73,7 +79,7 @@ sencha repository list
 You should get something like:
 
 ```
-Sencha Cmd v6.0.2.14
+Sencha Cmd v6.2.0.103
 [INF] Remote repository connections (3):
 [INF] 
 [INF]     sencha - http://cdn.sencha.com/cmd/packages/
